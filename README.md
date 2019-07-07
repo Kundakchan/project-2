@@ -1,4 +1,4 @@
-# spa-1
+# project-2
 
 ## Project setup
 ```
