@@ -1,0 +1,21 @@
+.bg-footer {
+  background-color: #f0f0f0;
+}
+.footer__content {
+  height: 97px;
+  padding-left: 80px;
+}
+.footer__right {
+  width: 120px;
+  justify-content: space-between;
+}
+.footer__left {
+  grid-template-columns: auto auto;
+  grid-column-gap: 10px;
+}
+
+@media screen and (max-width: 1100px){
+  .footer__content {
+    padding-left: 0;
+  }
+}

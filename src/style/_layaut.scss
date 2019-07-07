@@ -1,0 +1,63 @@
+header, main, footer {
+  
+}
+section {
+  
+}
+.bor {
+  
+}
+
+#app {
+  min-height: 100vh;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 60px;
+}
+
+.main {
+  grid-template-rows: auto repeat(5,minmax(50px, auto));
+  grid-row-gap: 50px;
+}
+
+.content {
+  max-width: 1100px;
+  width: 100%;
+  padding: 0 20px;
+}
+.content-sm {
+  max-width: 940px;
+  width: 100%;
+  padding: 0 20px;
+}
+.content-full {
+  width: 100%;
+  padding: 0 20px;
+}
+.grid {
+  display: grid;
+}
+.flex {
+  display: flex;
+}
+.between {
+  justify-content: space-between;
+}
+.g-center {
+  justify-items: center;
+}
+.g-right {
+  justify-items: end;
+}
+.f-vcenter {
+  align-items: center;
+}
+
+.pa-none {
+  padding: 0;
+}
+
+.col {
+  background-color: red;
+}

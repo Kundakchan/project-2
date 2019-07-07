@@ -1,0 +1,21 @@
+.btn {
+  border: none;
+  outline: none;
+  padding: .5em 1.2em;
+  background-color: gray;
+  color: white;
+}
+.btn__load {
+  font-size: 20px;
+  line-height: 24px;
+  color: initial;
+  background-color: rgba(255, 255, 255, 0);
+  width: 164px;
+  height: 60px;
+	border: 1px solid $color-body;
+	transition: border-color .2s linear, color .2s linear;
+	&:hover {
+		border-color: $color-level-3;
+		color: $color-level-3;
+	}
+}

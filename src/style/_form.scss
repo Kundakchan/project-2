@@ -1,0 +1,32 @@
+.bg-form {
+  background-color: #f0f0f0;
+  padding-bottom: 60px;
+}
+.form__group {
+  grid-template-columns: auto 32px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000000;
+  max-width: 400px;
+	width: 100%;
+	transition: border-color .2s linear;
+	&:hover {
+		border-color: $color-level-3;
+	}
+}
+.input {
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+.from__input-costom {
+  padding: 0 20px 0 5px;
+}
+
+.form__btn-costom {
+  background-color: #ffffff00 !important;
+  background: url(../assets/homepage/form/button-icon.png) no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  width: 32px;
+  height: 17px;
+}

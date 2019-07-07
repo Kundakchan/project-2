@@ -1,0 +1,30 @@
+.card-container {
+  grid-template-columns: auto auto;
+  grid-column-gap: 60px;
+  grid-row-gap: 120px;
+  .img{
+    margin-bottom: 2em;
+  }
+  .tag {
+    line-height: 2em;
+  }
+  .title-2 {
+    line-height: 1em;
+  }
+  .text {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .card-container {
+    .img {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 540px) {
+  .card-container {
+    grid-template-columns: auto;
+  }
+}

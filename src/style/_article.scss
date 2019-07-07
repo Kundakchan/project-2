@@ -1,0 +1,7 @@
+.article {
+  display: grid;
+  grid-template-rows: auto auto auto;
+}
+.article__title{
+	justify-items: start;
+}
